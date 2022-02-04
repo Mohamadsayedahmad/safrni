@@ -1,0 +1,253 @@
+@import './variables';
+#introduce {
+    max-height: max-content;
+    background-image: url("/src/images/second round/s2-1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    .overlay {
+        background-color: rgba(218, 216, 216, 0.5);
+    }
+    .container .btn-info{
+        margin-top: 10px;
+        font-size: 12px;
+    
+    }
+}
+
+.logo{
+     img {
+    width: 20%;
+    margin-top: 15px;
+    padding: 15px;
+    border: 5px solid #72ace7;
+    border-radius: 26%;
+}
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 5px;
+    margin-bottom: 21px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+&:after {
+    content: "";
+    display: block;
+    background-color: rgb(64, 143, 196, 3);
+    height: 2px;
+    width: 150px;
+    margin: auto;
+    position: relative;
+    margin-top: 20px;
+}
+}
+}
+#services{
+    h2 {
+    font-size: 60px;
+    padding: 27px 0;
+    &:after {
+        content: "";
+        display: block;
+        background-color: rgb(64, 143, 196, 3);
+        height: 2px;
+        width: 120px;
+        margin: auto;
+        position: relative;
+        margin-top: 7px;
+    }
+}
+    .row .col-lg-6 {
+        padding: 60px;
+    }
+    .row .col-lg-6 i {
+        background-color: #a6c5e4;
+        border-radius: 50%;
+        margin: 15px;
+        padding: 5px;
+    
+    }
+    .row .col-lg-6 p {
+        word-wrap: break-word;
+        text-align: center;
+        word-spacing: 1px;
+        color: #b6b1b1;
+        font-size: 25px;
+        margin-top: 26px;
+        text-align: justify;
+    }
+
+}
+#tours {
+    background-image: url("/src/images/first round/fr-2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 25px;
+    color: white;
+    .overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        padding: 120px 0 80px;
+        margin-bottom: -24px;
+    }
+    h1 {
+        text-align: center;
+        margin: 5px;
+        margin-top: 0px;
+        padding-top: 15px;
+        &:after {
+            content: "";
+            display: block;
+            background-color: rgb(64, 143, 196, 3);
+            height: 2px;
+            width: 200px;
+            margin: auto;
+            position: relative;
+            margin-top: 7px;
+        }
+    }
+    .container .row h2{
+        font-size: 28px;
+        display: inline-block;
+    }
+    .container .row img {
+        width: 100%;
+        margin: 15px;
+        margin-right: 2px;
+    }
+    .container .row .text {
+        margin-left: 2px;
+    }
+    .container .row p {
+        font-size: 30px;
+padding-top: 38px;
+    }
+    .container .row a{
+        padding-bottom: 10px;
+    }
+  
+}
+#round1{ 
+    background-color: $main-color;
+    .egy1{
+        margin: auto;
+        padding: 20px 0px;
+        color: $round1-titles;
+        font-size: 40px;
+    }
+        .paragraph{
+    font-size: 20px;
+    color: $round1-titles;
+    text-align: center;
+    padding: 20px 0;
+    line-height: 50px;
+
+    }
+    h4{
+        color: $round1-titles;
+        text-align: right;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        &:after{
+            content: "";
+            display: block;
+            background-color: #000;
+            height: 2px;
+            width: 150px;
+            margin-top: 7px;
+        }
+ }
+ .carousel-control-prev{
+    background-color: $round1-titles !important;
+}
+.carousel-control-next{
+    background-color: $round1-titles !important;
+}
+}
+.carousel{
+    width: 75%;
+    margin: auto;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+.carousel-control-prev{
+    position: absolute;
+    left: -162px;
+    background-color: rgba(103, 182, 174, 0.514);
+    width: 10%;
+    margin: 80px 0px 80px 35px;
+    &:hover{
+        background-color: rgb(24, 23, 23);
+        transition: 3s;
+    }
+}
+.carousel-control-next{
+    position: absolute;
+    right: -162px;
+    background-color: rgba(103, 182, 174, 0.514);
+    width: 10%;
+    margin: 80px 35px 80px 0px;
+    &:hover{
+        background-color: rgb(24, 23, 23);
+        transition: 3s;
+    }
+}
+#round22{
+    background-color: $round2-maincolor;
+}
+#round2 {
+    h1{
+   color: $round2-titles; 
+   margin: 20px 0;
+   padding: 20px;
+
+   &:after{
+    content: "";
+    display: block;
+    background-color: rgb(36, 106, 172);
+    height: 2px;
+    width: 350px;
+    margin: auto;
+    position: relative;
+    margin-top: 15px;
+   }
+  
+    }
+    p {
+    font-size: 20px;
+    text-align: justify;
+    color: $round2-titles;
+    line-height: 50px;
+        }
+        h2{
+           text-align: right;
+           padding: 20px 0;
+           &:after{
+            content: "";
+            display: block;
+            background-color: rgb(36, 106, 172);
+            height: 2px;
+            width: 150px;
+            position: relative;
+            margin-top: 15px;
+           }
+        }
+}
+.map{
+    margin: auto;
+}
+body{
+    overflow-x: hidden;
+}
+@media (max-width: 673px){
+   .carousel-control-next{
+    right: -100px;
+   }
+   .carousel-control-prev{
+    left: -100px;
+   }
+}
+@media (max-width: 542px){
+    .modal-footer{
+        display: contents 
+    }
+}

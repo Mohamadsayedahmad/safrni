@@ -1,0 +1,57 @@
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+.text1 p {
+    margin: 2px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#contact {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(255, 254, 254, 0.603);
+}
+
+#contact .contact-list .fa {
+    font-weight: 900;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 2px;
+    background-color: #333333;
+    color: #acacac;
+    margin: 20px 0 20px 10px;
+}
+
+.egy1:after {
+    content: "";
+    display: block;
+    background-color: #333333;
+    height: 2px;
+    width: 300px;
+    margin: auto;
+    margin-top: 13px;
+    position: relative;
+}
+
+.modal-content {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.modal-footer {
+    display: block;
+}
+
+.main {
+    padding-top: 10px;
+}
+
+.map {
+    display: block !important;
+}
